@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choudhary Gaushala</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #fffbe6, #f0e6d6);
+      color: #333;
+    }
+    header {
+      background-color: #7b4f1d;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    nav {
+      background-color: #5c3b13;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin-top: 30px;
+    }
+    .highlight {
+      background-color: #fff3cd;
+      padding: 15px;
+      border-left: 5px solid #ffc107;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #7b4f1d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    footer .socials a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+    img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #7b4f1d;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #5c3b13;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🐄 CHOUDHARY GAUSHALA</h1>
+    <p>Pure. Fresh. Local.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#faq">FAQs</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms & Conditions</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Choudhary Gaushala</h2>
+    <p>Hello! I’m <strong>Shivam Choudhary</strong>, proud owner of <strong>Choudhary Gaushala</strong>, your trusted local source for fresh and pure cow milk. We currently care for <strong>10 healthy cows</strong>, raised with love and natural feeding practices.</p>
+
+    <h3>Why Choose Us?</h3>
+    <
+      <li>100% Pure Cow Milk</li>
+      <li>Freshly Collected Daily</li>
+      <li>No Chemicals, All-Natural Feed</li>
+      <li>Clean & Hygienic Environment</li>
+      <li>Local & Trustworthy Service</li>
+    </ul>
+
+    <div class="highlight">
+      <h3>💥 Special Offer</h3>
+      <p>If you buy milk from Choudhary Gaushala, we will provide the best discount!</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>At Choudhary Gaushala, we promise to deliver the best quality milk at very affordable prices. To build trust, we offer a demo — <strong>5 liters of milk completely free</strong> for first-time customers! After this trial, our regular pricing applies, ensuring quality at a great value.</p>
+    <img src="cow 1.jpg" alt="High quality cow image">
+    <img src="cow2.jpg" alt="Fresh milk image">
+    <img src="cow3.avif~" alt="Fresh milk image">
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Fresh Milk Delivery</li>
+      <li>5 Liters Free Trial</li>
+      <li>Affordable Pricing</li>
+      <li>High-Quality Standards</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Location:</strong> Hariharpur, Darbhanga, near Durgaminder</p>
+    <p><strong>Phone:</strong> 7250082990</p>
+    <p><strong>Email:</strong> shivamchoudhary@gmail.com</p>
+  </section>
+
+  <section id="feedback">
+    <h2>Reviews & Feedback</h2>
+    <form id="feedbackForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="thankYouMessage" style="display:none; color: green; margin-top: 10px; font-weight: bold;">Thank you for your feedback!</div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <h4>Q: Is your milk organic?</h4>
+    <p>A: Yes, our cows are fed naturally without chemical-based products.</p>
+    <h4>Q: Do you offer home delivery?</h4>
+    <p>A: Yes, we deliver milk locally in Darbhanga.</p>
+    <h4>Q: Can I visit the Gaushala?</h4>
+    <p>A: Absolutely! We welcome visitors anytime during working hours.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>We value your privacy. Any personal details collected will solely be used to improve our services and will not be shared with third parties.</p>
+  </section>
+
+  <section id="terms">
+    <h2>Terms & Conditions</h2>
+    <p>By using our service, you agree to our milk delivery terms and refund policy. Any disputes shall be handled under local jurisdiction.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Choudhary Gaushala. All rights reserved.</p>
+    <div class="socials">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      document.getElementById('thankYouMessage').style.display = 'block';
+      this.reset();
+    });
+  </script>
+</body>
+</html>
